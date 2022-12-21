@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div>
+			<p>Первый сотрудник</p>
+			<label for="fio1">ФИО</label>
+			<input type="text" id="fio1" />
+			<label for="date1">Дата прийома на работу</label>
+			<input type="date" name="date1" class="dt" required />
+			<p></p>
+			<div class="output"></div>
+		</div>
+		<div>
+			<p>Второй сотрудник</p>
+			<label for="fio2">ФИО</label>
+			<input type="text" id="fio2" />
+			<label for="date2">Дата прийома на работу</label>
+			<input type="date" name="date2" class="dt" required />
+			<p></p>
+			<div class="output"></div>
+		</div>
+		<div>
+			<p>Третий сотрудник</p>
+			<label for="fio3">ФИО</label>
+			<input type="text" id="fio3" />
+			<label for="date3">Дата прийома на работу</label>
+			<input type="date" name="date3" class="dt" required />
+			<p></p>
+			<div class="output"></div>
+		</div>
+		<div>
+			<p>Четвёртый сотрудник</p>
+			<label for="fio4">ФИО</label>
+			<input type="text" id="fio4" />
+			<label for="date4">Дата прийома на работу</label>
+			<input type="date" name="date4" class="dt" required />
+			<p></p>
+			<div class="output"></div>
+		</div>
+		<div>
+			<p>Пятый сотрудник</p>
+			<label for="fio5">ФИО</label>
+			<input type="text" id="fio5" />
+			<label for="date5">Дата прийома на работу</label>
+			<input type="date" name="date5" class="dt" required />
+			<p></p>
+			<div class="output"></div>
+		</div>
+		<button id="btn">Получить стаж</button>
+		<div>
+			<div id="result"></div>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
